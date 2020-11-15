@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("lewandowski.jpg");
+    height: 50%;
+    width: 50%;
+}
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("lakers.webp");
+    height: 50%;
+    width: 50%;
+}
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffe993;
+}
+a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left
+}
+a:hover {
+    background-color:gray;
+}
+.container {
+    outline: 3px solid #ffe993;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+* {
+    box-sizing: border-box;
+}
+.col {
+    float:left;
+    width: 50%;
+}
+.col img {
+    height: 450px;
+}
+footer {
+    padding: 3px;
+    background-color: #ffe993;
+    color: black;
+    outline: 3px solid #ffe993
+}
+#rectangle2 {
+    float: right;
+    background-color: maroon;
+}
+#squaresheader {
+    text-align: center;
+}
+.fa {
+    float: right;
+}
+#upcomingheader {
+    text-decoration: underline;
+}
+label {
+    display: block;
+}
+#textbox {
+    height: 250px;
+    width: 460px;
+}
+#kang-in {
+    margin: 13px 130px;
+    width: 75%;
+}
+#havertz {
+    margin: 13px 130px;
+    width: 75%;
+}
+.upcoming-paragraph {
+    text-align: center;
+    font-weight: bold;
+    color: lightgray;
+}
+#submit {
+    margin: 10px 0px 0px 0px
+}
+.leftside, .rightside {
+    width: 100%;
+}
+@media screen and (min-width:768px)
+{
+    .leftside, .rightside {
+        height: 100vh;
+    }
+}
+.g-bg {
+    background-color: gray;
+}
+.y-bg {
+    background-color: yellow;
+}
+.m-bg {
+    background-color: maroon;
+}
+#squares {
+    margin: 110px 0px;
+}
