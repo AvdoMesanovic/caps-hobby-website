@@ -1,2 +1,2 @@
 # caps-hobby-website
-This is dedicated to my hobby website for CAPS.
+A sports news website. A project created for STLCAPS.
